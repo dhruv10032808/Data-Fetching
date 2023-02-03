@@ -3,6 +3,9 @@ import React from 'react';
 import classes from './Movie.module.css';
 
 const Movie = (props) => {
+  async function deleteMovieHandler(){
+    
+  }
   return (
     <li className={classes.movie}>
       <h2>{props.title}</h2>
